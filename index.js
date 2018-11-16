@@ -1,6 +1,6 @@
 module.exports = {
 	// 模版标识
-	name: 'example',
+	name: 'media-five',
 	// 模版引擎
 	engine: 'pug',
 
@@ -9,65 +9,65 @@ module.exports = {
 		{
 			name: '首页',
 			// 路径
-			path: '/index',
+			path: '/',
 			// 预览图
-			thumbnail: 'index.png',
+			thumbnail: 'home.png',
 		},
 		{
-			name: '国内游',
+			name: '博客',
 			// 路径
-			path: '/domestic',
+			path: '/blog',
 			// 预览图
-			thumbnail: 'domestic.png',
+			thumbnail: 'blog.png',
 		},
 		{
-			name: '旅游商品详情页',
+			name: '博客浏览',
 			// 路径
-			path: '/details',
+			path: '/blog_show',
 			// 预览图
-			thumbnail: 'details.png',
+			thumbnail: 'blog_show.png',
 		},
 		{
-			name: '出境游',
+			name: 'intro',
 			// 路径
-			path: '/abroad',
+			path: '/intro',
 			// 预览图
-			thumbnail: 'abroad.png',
+			thumbnail: 'intro.png',
 		},
 		{
-			name: '海岛旅游',
+			name: 'look_book',
 			// 路径
-			path: '/island',
+			path: '/look_book',
 			// 预览图
-			thumbnail: 'island.png',
+			thumbnail: 'look_book.png',
 		},
 		{
-			name: '游轮游',
+			name: '页面',
 			// 路径
-			path: '/cruise',
+			path: '/page',
 			// 预览图
-			thumbnail: 'cruise.png',
+			thumbnail: 'page.png',
 		},
 		{
-			name: '注册',
+			name: '商品详情',
 			// 路径
-			path: '/register',
+			path: '/shop_show',
 			// 预览图
-			thumbnail: 'register.png',
+			thumbnail: 'shop_show.png',
 		},
 		{
-			name: '登陆',
+			name: '商城',
 			// 路径
-			path: '/login',
+			path: '/shop',
 			// 预览图
-			thumbnail: 'login.png',
+			thumbnail: 'shop.png',
 		},
 		{
-			name: '周边游',
+			name: '作品',
 			// 路径
-			path: '/periphery',
+			path: '/works',
 			// 预览图
-			thumbnail: 'periphery.png',
+			thumbnail: 'works.png',
 		}
 	]
 }
